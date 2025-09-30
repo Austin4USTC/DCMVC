@@ -14,12 +14,12 @@ Chuanbo Tang, Zhuoyuan Li, Yifan Bian, Li Li, Dong Liu
 ## 📌Overview
 
 Our **D**eep **C**ontext **M**odulation for **V**ideo **C**ompression (**DCMVC**) significantly advances the performance of Neural Video Codecs (NVCs). DCMVC is proposed to generate high-quality temporal context exploiting the reference information in both pixel and feature domain.
-<img src="./assets/overview.png" alt="visualization" width="900"/>
+<img src="./assets/overview.png" alt="visualization" width="700"/>
 </div>
 
 - **Flow Orientation**: It enables our DCMVC to generate additional oriented temporal context from the reference frame. 
 - **Context Compensation**: It eliminates the irrelevant propagated information to ensure better context modeling. 
-<img src="./assets/detail_frame.png" alt="visualization" width="900"/>
+<img src="./assets/detail_frame.png" alt="visualization" width="700"/>
 </div>
 
 
@@ -34,7 +34,7 @@ Results comparison (BD-Rate and RD curve) for PSNR. The Intra Period is 32 with 
 | [DCVC-DC](https://openaccess.thecvf.com/content/CVPR2023/papers/Li_Neural_Video_Compression_With_Diverse_Contexts_CVPR_2023_paper.pdf) |   -25.9   |   -14.4   |   -8.8   |
 | [DCVC-FM](https://openaccess.thecvf.com/content/CVPR2024/papers/Li_Neural_Video_Compression_with_Feature_Modulation_CVPR_2024_paper.pdf) |   -20.4   |   -8.1   |   -8.4   |
 |                       **DCMVC (ours)**                        | **-30.6** | **-17.3** | **-14.4** |
-<img src="./assets/rd.png" alt="visualization" width="900"/>
+<img src="./assets/rd.png" alt="visualization" width="700"/>
 </div>
 
 
@@ -43,7 +43,7 @@ Results comparison (BD-Rate and RD curve) for PSNR. The Intra Period is 32 with 
 - Our DCMVC enables better temporal context modeling.
 
 <div align="center">
-<img src="./assets/vis.png" alt="visualization" width="900"/>
+<img src="./assets/vis.png" alt="visualization" width="700"/>
 </div>
 
 
