@@ -14,11 +14,13 @@ Chuanbo Tang, Zhuoyuan Li, Yifan Bian, Li Li, Dong Liu
 ## 📌Overview
 
 Our **D**eep **C**ontext **M**odulation for **V**ideo **C**ompression (**DCMVC**) significantly advances the performance of Neural Video Codecs (NVCs). DCMVC is proposed to generate high-quality temporal context exploiting the reference information in both pixel and feature domain.
+<div align="center">
 <img src="./assets/overview.png" alt="visualization" width="700"/>
 </div>
 
 - **Flow Orientation**: It enables our DCMVC to generate additional oriented temporal context from the reference frame. 
 - **Context Compensation**: It eliminates the irrelevant propagated information to ensure better context modeling. 
+<div align="center">
 <img src="./assets/detail_frame.png" alt="visualization" width="700"/>
 </div>
 
