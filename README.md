@@ -4,7 +4,7 @@
 
 Chuanbo Tang, Zhuoyuan Li, Yifan Bian, Li Li, Dong Liu
 
-[[`Arxiv`](https://arxiv.org/abs/2505.05309)] [[`BibTeX`](#book-citation)] [[`Dataset`](https://github.com/EsakaK/USTC-TD)] 
+[[`Arxiv`](https://arxiv.org/abs/2505.14541)] [[`BibTeX`](#book-citation)] [[`Dataset`](https://github.com/EsakaK/USTC-TD)] 
 
 [![python](https://img.shields.io/badge/Python-3.8-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-380/) [![pytorch](https://img.shields.io/badge/PyTorch-1.12-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/) [![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray)](#license)
 
@@ -138,7 +138,7 @@ python test.py --rate_num 4 --test_config ./dataset_config_example_rgb.json --cu
 ```
 
 - We use the same Intra model as DCVC-DC. `cvpr2023_image_psnr.pth.tar` can be downloaded from [DCVC-DC](https://github.com/microsoft/DCVC/tree/main/DCVC-family/DCVC-DC).
-- Our `dcmvc_p_frame.pth.tar` can be downloaded from [CVPR2025-DCMVC](https://pan.baidu.com/s/1smjLy_SgPP5H0QbcrRQGNQ?pwd=adyi).
+- Our `dcmvc_p_frame.pth.tar` can be downloaded from [CVPR2025-DCMVC](https://pan.baidu.com/s/1azzj1xcEKhXHEHIcz8vLlw).
 
 Put the model weights into the `./ckpt`  directory and run the above command.
 
@@ -146,21 +146,6 @@ Our model supports variable bitrate. Set different `i_frame_q_indexes`  and `p_f
 
 </details>
 
-
-</details>
-
-<details>
-  <summary><font size="5">3. Temporal Stability</font></summary><br>
-
-To intuitively verify the temporal stability of the two resolution videos, we provide two reconstruction examples with four bitrates:
-- BasketballDrive_1920x1080_50: q1, q2, q3, q4 
-- RaceHorses_832x480_30: q1, q2, q3, q4
-
-You can find them in [examples](https://pan.baidu.com/s/1KA34wC3jFZzG6A-XipUctA?pwd=7kd4).
-
-They are stored in rgb24 format. You can use the [YUV Player](https://github.com/Tee0125/yuvplayer/releases/tag/2.5.0) to display them and observe the temporal stability.
-
-**Note that**: if you are displaying the skim mode rec, do not forget to set the right resolution, which is a quarter of full resolution.
 
 </details>
 
