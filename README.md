@@ -138,9 +138,7 @@ python test.py --rate_num 4 --test_config ./dataset_config_example_rgb.json --cu
 ```
 
 - We use the same Intra model as DCVC-DC. `cvpr2023_image_psnr.pth.tar` can be downloaded from [DCVC-DC](https://github.com/microsoft/DCVC/tree/main/DCVC-family/DCVC-DC).
-- Our `dcmvc_p_frame.pth.tar` can be downloaded from [CVPR2025-DCMVC](https://pan.baidu.com/s/1azzj1xcEKhXHEHIcz8vLlw).
-
-Put the model weights into the `./ckpt`  directory and run the above command.
+- Our `dcmvc_p_frame.pth.tar` can be downloaded from [CVPR2025-DCMVC](https://pan.baidu.com/s/1Hy3xKBmRIxFgOyv3v930hw?pwd=7q21).
 
 Our model supports variable bitrate. Set different `i_frame_q_indexes`  and `p_frame_q_indexes` to evaluate different bitrates.
 
