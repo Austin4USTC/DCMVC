@@ -14,7 +14,7 @@ import time
 import torch
 import torch.nn.functional as F
 import numpy as np
-from models.DCMVC_model import DMC
+from src.models.DCMVC_model import DMC
 from src.models.image_model import IntraNoAR
 from src.utils.common import str2bool, create_folder, generate_log_json, dump_json
 from src.utils.stream_helper import get_padding_size, get_state_dict

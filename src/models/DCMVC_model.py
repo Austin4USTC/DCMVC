@@ -244,6 +244,7 @@ class DMC(CompressionModel):
         channel_mv = 64
         channel_N = 64
 
+        self.dec_me = ME_Spynet()
         self.optic_flow = ME_Spynet()
         self.align = OffsetDiversity(inplace=inplace)
 
@@ -364,6 +365,7 @@ class DMC(CompressionModel):
             index = index_map[index]
             feature = feature_adaptor_list[index](dpb["ref_feature"])
         return self.feature_extractor(feature)
+    
     def decoder_side_memc(self, refer_frame, predicted_frame):
         dec_flow = self.dec_me(predicted_frame, refer_frame)
         decoder_side_mcframe = flow_warp(refer_frame, dec_flow)
