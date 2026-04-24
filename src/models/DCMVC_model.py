@@ -245,6 +245,7 @@ class DMC(CompressionModel):
         channel_N = 64
 
         self.optic_flow = ME_Spynet()
+        self.dec_me = ME_Spynet()
         self.align = OffsetDiversity(inplace=inplace)
 
         self.mv_encoder = MvEnc(2, channel_mv)
